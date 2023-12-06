@@ -1,0 +1,32 @@
+#slider {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	margin: 100px auto 0 auto;}
+
+#slider .slides {
+	transition: transform 1s ease-in-out;
+	display: flex;}
+
+.slide1 {
+	transform: none;}
+
+.slide2 {
+	transform: translateX(-800px);}
+
+.slide3 {
+	transform: translateX(-1600px);}
+
+.slide4 {
+	transform: translateX(-2400px);}
+.slide5 {
+	transform: translateX(-3200px);}
+
+.Panel {
+	text-align: center;}
+
+.PanelBtns {
+	text-align: center;}
+
+#Actual {
+	text-align: center;}
